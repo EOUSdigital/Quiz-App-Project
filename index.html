@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 3</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main id="main">
+        <section id="lessonDescription">
+            <h1>📚 Module 4 - Lesson 02.03.01 Creating a Function - Quiz App Project</h1>
+        </section>
+
+        <section id="welcome-screen">
+            <h1>Welcome to the Space Quiz!</h1>
+            <p>Test your knowledge of the cosmos!</p>
+            <button id="start-btn">Start Quiz</button>
+        </section>
+
+        <section id="score">
+            <h2>🎉 Score 🎉</h2>
+            <div>
+                <span>Your score is <strong id="score-percentage">0%</strong></span>
+            </div>
+            <div>
+                <p>You answered <strong id="questions-answered">0</strong> of <strong id="total-questions">0</strong> questions.</p>
+                <p>You answered <strong id="correct-answers">0</strong> correctly.</p>
+            </div>
+        </section>
+
+        <section id="quiz-block">
+            <div class="quiz-container" id="quiz">
+            <div id="question-container">
+                <div id="question"></div>
+                <div id="answer-buttons" class="btn-container"></div>
+            </div>
+            </div>
+
+            <div class="button-group">
+                <button id="next-btn" class="next-btn">Next</button>
+                <button id="score-btn" class="score-btn">Score Quiz</button>
+                <button id="reset-btn" class="reset-btn">Reset</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
