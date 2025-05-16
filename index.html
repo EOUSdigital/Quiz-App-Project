@@ -13,6 +13,7 @@
         </section>
 
         <section id="welcome-screen">
+            <span>🏁</span>
             <h1>Welcome to the Space Quiz!</h1>
             <p>Test your knowledge of the cosmos!</p>
             <button id="start-btn">Start Quiz</button>
@@ -20,13 +21,14 @@
 
         <section id="score">
             <h2>🎉 Score 🎉</h2>
-            <div>
+            <div class="score-span">
                 <span>Your score is <strong id="score-percentage">0%</strong></span>
             </div>
-            <div>
+            <div class="score-description">
                 <p>You answered <strong id="questions-answered">0</strong> of <strong id="total-questions">0</strong> questions.</p>
                 <p>You answered <strong id="correct-answers">0</strong> correctly.</p>
             </div>
+            <button id="reset-btn">Reset</button>
         </section>
 
         <section id="quiz-block">
@@ -40,7 +42,6 @@
             <div class="button-group">
                 <button id="next-btn" class="next-btn">Next</button>
                 <button id="score-btn" class="score-btn">Score Quiz</button>
-                <button id="reset-btn" class="reset-btn">Reset</button>
             </div>
         </section>
     </main>
