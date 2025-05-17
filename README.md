@@ -1,31 +1,31 @@
-JavaScript Quiz App
+# JavaScript Quiz App
 
 This is a lightweight, interactive quiz application built with HTML, CSS, and JavaScript. It presents a series of multiple-choice questions, tracks the user's answers, calculates a final score, and offers a reset option.
 
 -------------------------------------------------------
 
-Features
+# Features
 
-• Start screen with welcome message.
-• Displays one question at a time.
-• Multiple-choice answers are rendered dynamically.
-• Highlights the selected answer.
-• Navigation via “Next” and “Score Quiz” buttons.
-• Final score display with total correct.
-• A reset option to restart the quiz from the beginning.
-• Responsive layout and clean UI.
+- Start screen with welcome message.
+- Displays one question at a time.
+- Multiple-choice answers are rendered dynamically.
+- Highlights the selected answer.
+- Navigation via “Next” and “Score Quiz” buttons.
+- Final score display with total correct.
+- A reset option to restart the quiz from the beginning.
+- Responsive layout and clean UI.
 
 ---------------------------------------------------------
 
-Technologies Used
+# Technologies Used
 
-• HTML5
-• CSS3 (Flexbox layout, custom buttons, responsive design)
-• JavaScript (DOM manipulation, event handling, quiz logic)
+- HTML5
+- CSS3 (Flexbox layout, custom buttons, responsive design)
+- JavaScript (DOM manipulation, event handling, quiz logic)
 
 --------------------------------------------------------
 
-File Structure
+# File Structure
 
 quiz-app/
 │
@@ -36,19 +36,20 @@ quiz-app/
 
 ----------------------------------------------------------
 
-Screenshots
+# Screenshots
 
-• Welcome Screen  
-  • Displays quiz title and Start button.
+- Welcome Screen  
+  - Displays quiz title and Start button.
 
-• Quiz Screen  
-  • One question per view with answer options.
+- Quiz Screen  
+  - One question per view with answer options.
 
-• Score Screen
-  • Shows score percentage and total correct answers.
+- Score Screen
+  - Shows score percentage and total correct answers.
 
 --------------------------------------------------------
-How It Works
+
+# How It Works
 
 1. Click "Start Quiz" to begin.
 2. Select an answer and click "Next".
@@ -57,33 +58,32 @@ How It Works
 
 --------------------------------------------------------
 
-Learning Objectives
+# Learning Objectives
 
 This project reinforces skills in:
-
-• Creating modular, maintainable JavaScript
-• Dynamically updating the DOM
-• Managing application state with variables
-• Structuring a single-page app workflow
-• Creating responsive, accessible interfaces
-
---------------------------------------------------------
-
-To-Do / Future Improvements
-
-• Show correct/incorrect feedback per question
-• Add quiz categories or difficulty levels
-• Store past scores in localStorage
-• Add a timer per question
+- Creating modular, maintainable JavaScript
+- Dynamically updating the DOM
+- Managing application state with variables
+- Structuring a single-page app workflow
+- Creating responsive, accessible interfaces
 
 --------------------------------------------------------
 
-Author
+# To-Do / Future Improvements
+
+- Show correct/incorrect feedback per question
+- Add quiz categories or difficulty levels
+- Store past scores in localStorage
+- Add a timer per question
+
+--------------------------------------------------------
+
+# Author
 
 This project was built as part of a guided capstone series with a focus on progressive JavaScript learning.
 
 --------------------------------------------------------
 
-License
+# License
 
 This project is licensed for educational and personal use. Feel free to adapt and expand it for educational purposes only.
